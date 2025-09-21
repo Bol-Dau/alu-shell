@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s /bin/ls /alu-shell/basics
+ln -s /bin/ls /alu-shell/basics/_ls_
