@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "6"
+echo -e "6\n"
