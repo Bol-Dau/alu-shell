@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((5#$(echo $WATER|tr waetr 01234)+5#$(echo $STIR|tr stir. 01234)))|awk '{s="behlnort";for(i=1;x||i==1;i++)x=int($1/8^i);for(j=i-1;j>=0;j--)printf substr(s,int($1/8^j)%8+1,1);print""}'
+echo $((WATER + STIR))
