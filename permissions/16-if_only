@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -e 'if ((stat "hello")[4] == getpwnam("guillaume")) { system("chown vincent hello"); }'
+sudo chown --from=guillaume vincent hello
